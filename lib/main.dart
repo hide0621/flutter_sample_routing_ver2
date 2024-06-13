@@ -39,6 +39,7 @@ class FirstScreen extends StatelessWidget {
             ElevatedButton(
               child: const Text('FirstからThirdへ'),
               onPressed: () {
+                // ルートがthirdの場合、中間のsecondは表示されないので注意
                 Navigator.of(context).pushNamed('/second/third');
               },
             ),
