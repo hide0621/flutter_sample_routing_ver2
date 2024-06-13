@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  // runApp(
+  //   MaterialApp(initialRoute: '/', routes: {
+  //     '/': (context) => const FirstScreen(),
+  //     '/second': (context) => const SecondScreen(),
+  //     '/second/third': (context) => const ThirdScreen(),
+  //   }),
+  // );
   runApp(
-    MaterialApp(initialRoute: '/', routes: {
+    MaterialApp(initialRoute: '/second/third', routes: {
       '/': (context) => const FirstScreen(),
       '/second': (context) => const SecondScreen(),
       '/second/third': (context) => const ThirdScreen(),
